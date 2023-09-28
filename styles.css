@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: black;
+  font-family: "consolas", monospace;
+  background-size: cover; /* Ensures the background covers the entire element */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.card {
+  background-color: slategrey;
+
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  outline: none;
+  text-align: center;
+  outline: none;
+  height: 44px;
+  width: 44px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+button:hover {
+  background-color: lightgray;
+  transition: 0.2s ease-in-out;
+  color: black;
+}
+
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 100%;
+  color: white;
+  border-radius: 25px;
+  width: 80%;
+  height: 1.5rem;
+  background-color: black;
+}
+
+h1.temp {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.card .title {
+  text-align: center;
+  color: black;
+  font-family: "consolas", monospace;
+  letter-spacing: 2px;
+  font-size: 2em;
+  border-bottom: 1px solid black;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.8),
+    0 0 30px rgba(255, 255, 255, 0.8);
+}
+
+
+
+.description {
+  text-transform: capitalize;
+  margin-left: 5px;
+
+
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+
+}
+
+.city {
+  text-transform: capitalize;
+}
+
+.icon {
+  margin-left: -5px;
+}
